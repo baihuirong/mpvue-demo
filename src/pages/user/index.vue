@@ -16,6 +16,11 @@
                 {{item}}
             </li>
         </ul>
+        <img src="../../../static/images/home2.png"/>
+
+
+
+
      
     </div> 
 </template>
@@ -37,7 +42,7 @@
             }
         },
 
-        //生命周期函数
+        /*生命周期函数*/
 
         created(){
 
