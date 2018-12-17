@@ -6,6 +6,17 @@ a demo for learning mpvue framework<br>
 
 > 前端新手，欢迎多多提意见<br>
 > 如果你喜欢对这个项目感兴趣,可以点“Star”支持一下~谢谢！^_^<br>
+
+# 效果展示
+
+![display](https://github.com/baihuirong/mpvue-demo/blob/master/demo.gif)
+
+## 工程页面
+
+![display](https://github.com/baihuirong/mpvue-demo/blob/master/%E5%BC%80%E5%8F%91%E6%88%AA%E5%9B%BE1.PNG)
+![display](https://github.com/baihuirong/mpvue-demo/blob/master/%E5%BC%80%E5%8F%91%E6%88%AA%E5%9B%BE2.PNG)
+
+
 # Mpvue是什么？
 
 Mpvue是一个基于VUE的微信小程序前端框架，可以让我们用vue语法来写小程序的项目。<br>
