@@ -11,7 +11,7 @@ export default{
     
     config:{
         
-        "pages":['pages/logs/main','^pages/index/main','^pages/user/main','pages/news/main'],
+        "pages":["pages/logs/main","^pages/index/main","^pages/user/main","pages/news/main","pages/newsContent/main"],
         "window":{
             "backgroundTextStyle":'light',
             "navigationBarBackgroundColor":'#b3d4db',

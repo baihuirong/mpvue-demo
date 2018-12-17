@@ -3,7 +3,7 @@
 
     <div>
         <ul class="list">
-            <li v-for="(item,key) in list":key="key">
+            <li v-for="(item,key) in list":key="key" @click="goContent(item.aid)">
 
                 {{item.title}}
             </li>
@@ -46,13 +46,21 @@
                     }
                 })
 
+            },
+            goContent(aid){
+
+                const url = '../newsContent/main?aid='+aid;
+                wx.navigateTo({ url });
+
             }
 
         },
+        
 
         /*生命周期函数*/
 
         created(){
+
             this.requestData();
 
         }
