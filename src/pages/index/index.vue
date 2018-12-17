@@ -10,6 +10,9 @@
 
     <button @click="doFn()">自定义按钮</button>
 
+
+    <button @click="goUser()">跳转到用户页面</button>
+
     <div class="usermotto">
       <div class="user-motto">
         <card :text="motto"></card>
@@ -42,6 +45,12 @@ export default {
     bindViewTap () {
       const url = '../logs/main'
       wx.navigateTo({ url })
+    },
+    goUser(){
+      //小程序api部分用的还是小程序的api
+      const url = '../user/main'
+      wx.navigateTo({ url })
+
     },
     getUserInfo () {
       // 调用登录接口
